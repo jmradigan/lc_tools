@@ -15,7 +15,7 @@ def canvas_format(lcfile=None,cfile=None,score_method=None,write_file=None, **kw
 
   score_method : string {'SumSessions','SumPoints'}
     Either award a point per session joined (includes zeros, but not nulls),
-    or sum points across all columns
+    or sum points across all columns. Default is 'SumSessions'
 
   write_file : string 
     Name of output .csv file
